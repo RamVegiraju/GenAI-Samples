@@ -1,2 +1,2 @@
-# LangChain-Samples
-Examples integrating with LangChain for GenAI
+# GenerativeAI-Samples
+GenAI examples utilizing various popular frameworks.
