@@ -1,2 +1,2 @@
 # GenerativeAI-Samples
-GenAI examples utilizing various popular frameworks.
+Compilation of GenAI examples utilizing proper tools/frameworks.
