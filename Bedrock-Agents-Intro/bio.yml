@@ -1,0 +1,29 @@
+openapi: "3.0.0"
+info:
+  title: "Simple Biodata Retriever API"
+  version: "1.0.0"
+  description: "API for retrieving biodata of people. This API will return information such as age."
+paths:
+  "/biodata/{name}/age":
+    get:
+      summary: "Receive a person's name and then return the age of that person"
+      description: "This gets a person's biodata and then specifically their age if it has that information. The API only takes in one argument, which is the name, and it should return the age of that name if it has that information."
+      operationId: "getAge"
+      parameters:
+        - name: "name"
+          in: "path"
+          description: "Name of person"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "Gets the age of the person's name that has been entered"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  age:
+                    type: "integer"
+                    description: "Age of the person's name entered."
