@@ -1,3 +1,3 @@
 ## Sample LLMOPs Pipeline with Llama2
 
-To-Do: Add Blog
+## [Blog](https://towardsdatascience.com/building-an-llmops-pipeline-08d367b36d64)
