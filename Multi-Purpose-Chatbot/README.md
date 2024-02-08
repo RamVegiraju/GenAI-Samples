@@ -1,4 +1,4 @@
-## To-Do: Add Blog
+## [Blog](https://medium.com/towards-data-science/building-a-multi-purpose-genai-powered-chatbot-db20f1f81d90)
 
 ### Demo
 
